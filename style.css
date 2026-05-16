@@ -1,0 +1,130 @@
+/* ===== Global Styles ===== */
+body, .gradio-container {
+    background: linear-gradient(135deg, #0f0c29 0%, #1a1a2e 40%, #16213e 100%) !important;
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif !important;
+    color: #e0e0e0 !important;
+    min-height: 100vh;
+}
+.gradio-container {
+    max-width: 960px !important;
+    margin: 0 auto !important;
+    padding: 2rem 1.5rem !important;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+    text-align: center;
+    padding: 2.5rem 1rem 1rem 1rem;
+}
+.hero-title {
+    font-size: 4em;
+    font-weight: 900;
+    background: linear-gradient(135deg, #FFCB05 0%, #FFD700 40%, #FFA500 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.3em;
+    line-height: 1.1;
+}
+.hero-subtitle {
+    font-size: 1.35em;
+    color: #94a3b8;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.hero-gif {
+    margin: 1.2rem auto 0 auto;
+    display: block;
+    width: 80px;
+    filter: drop-shadow(0 0 12px rgba(255, 203, 5, 0.4));
+}
+
+/* ===== Spectate Button ===== */
+.spectate-wrapper {
+    text-align: center;
+    margin: 1.5rem 0 1.8rem 0;
+}
+.spectate-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #3B4CCA 0%, #2563eb 100%);
+    color: #fff !important;
+    padding: 14px 32px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.15em;
+    box-shadow: 0 4px 20px rgba(59, 76, 202, 0.4);
+    transition: all 0.3s ease;
+}
+.spectate-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px rgba(59, 76, 202, 0.6);
+}
+.pulse-dot {
+    width: 10px;
+    height: 10px;
+    background: #22c55e;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(34,197,94,0.5); }
+    50% { box-shadow: 0 0 0 8px rgba(34,197,94,0); }
+}
+
+/* ===== Tabs & Cards ===== */
+.tab-nav button {
+    font-size: 1.1em !important;
+    font-weight: 700 !important;
+}
+.gr-group, .gr-panel, .block, .form, .panel {
+    background: #1a1a2e !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 16px !important;
+}
+
+/* ===== Form Controls ===== */
+input[type="text"], textarea, .gr-input, .gr-text-input, .gr-dropdown, select {
+    background: rgba(255,255,255,0.06) !important;
+    border: 1px solid rgba(255,255,255,0.12) !important;
+    color: #e2e8f0 !important;
+    border-radius: 10px !important;
+}
+input[type="text"]:focus, textarea:focus {
+    border-color: #FFCB05 !important;
+    box-shadow: 0 0 0 3px rgba(255,203,5,0.15) !important;
+}
+
+/* ===== Pokémon Battle Buttons ===== */
+.gr-button.primary, button.primary {
+    background: linear-gradient(180deg, #FF3333 0%, #CC0000 100%) !important;
+    color: #fff !important;
+    font-weight: 800 !important;
+    font-size: 1.15em !important;
+    border-radius: 12px !important;
+    border: 2px solid #990000 !important;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+}
+.gr-button.primary:hover, button.primary:hover {
+    background: linear-gradient(180deg, #FF4D4D 0%, #E60000 100%) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* ===== Status Box ===== */
+.status-box textarea {
+    background: rgba(0,0,0,0.3) !important;
+    color: #a5f3a5 !important;
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+.tab-explanation {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.95em;
+    margin-bottom: 0.8rem;
+    font-style: italic;
+}
