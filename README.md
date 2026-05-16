@@ -31,8 +31,8 @@ Requirement:
 ### 1. Clone and configure
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/datt46999/Pokemon_AI_agent.git
+cd Pokemon_AI_agent
 ```
 
 Edit `.env` and paste your API keys. See [Getting API Keys](#getting-api-keys) below.
@@ -123,9 +123,9 @@ LANGFUSE_HOST=https://cloud.langfuse.com
 
 
 
-# [Demo results]()
+### [Demo results](https://drive.google.com/file/d/1A7keRRiTaEJNySbDXE_qsHJWaI0gyIe0/view?usp=sharing)
 
-
+### [hugging_face](https://huggingface.co/spaces/gugukaka/pokemon_agent):
 ## 🔗 **Resources**
 
 - [Poke-env](https://github.com/hsahovic/poke-env)
