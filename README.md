@@ -125,7 +125,7 @@ LANGFUSE_HOST=https://cloud.langfuse.com
 
 ### [Demo results](https://drive.google.com/file/d/1A7keRRiTaEJNySbDXE_qsHJWaI0gyIe0/view?usp=sharing)
 
-### [hugging_face](https://huggingface.co/spaces/gugukaka/pokemon_agent)
+### Code in [hugging_face](https://huggingface.co/spaces/gugukaka/pokemon_agent)
 ## 🔗 **Resources**
 
 - [Poke-env](https://github.com/hsahovic/poke-env)
