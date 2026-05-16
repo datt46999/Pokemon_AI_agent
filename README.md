@@ -35,7 +35,7 @@ git clone https://github.com/datt46999/Pokemon_AI_agent.git
 cd Pokemon_AI_agent
 ```
 
-Edit `.env` and paste your API keys. See [Getting API Keys](#getting-api-keys) below.
+Edit `.env` and paste your API keys. See [Getting API Keys](#Get-API-Key) below.
 
 ### 2. Create venv and install dependencies
 
